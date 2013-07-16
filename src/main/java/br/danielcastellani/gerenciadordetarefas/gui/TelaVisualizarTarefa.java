@@ -36,6 +36,7 @@ public class TelaVisualizarTarefa extends javax.swing.JInternalFrame {
 
         setClosable(true);
         setTitle("Listagem de Projetos");
+        setPreferredSize(new java.awt.Dimension(600, 600));
 
         panelListagem.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         panelListagem.setAutoscrolls(true);
@@ -49,7 +50,7 @@ public class TelaVisualizarTarefa extends javax.swing.JInternalFrame {
         );
         panelListagemLayout.setVerticalGroup(
             panelListagemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 363, Short.MAX_VALUE)
+            .addGap(0, 367, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
